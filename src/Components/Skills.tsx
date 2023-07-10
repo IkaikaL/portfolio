@@ -18,7 +18,7 @@ const Skills = () => {
 				}}
 			>
 				<Grid item xs={2}>
-					deez
+					deeznuts
 				</Grid>
 				<Grid item xs={2}>
 					deez
