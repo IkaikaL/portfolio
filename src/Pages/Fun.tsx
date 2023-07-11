@@ -47,8 +47,10 @@ const Fun = () => {
 			sx={{
 				backgroundColor: "#181716",
 				justifyContent: "center",
+				textAlign: "center",
 			}}
 		>
+			<Typography sx={{ color: "white", fontSize: 20 }}>Pictures:</Typography>
 			<ImageList
 				sx={{ width: "100%", height: "890px" }}
 				cols={4}

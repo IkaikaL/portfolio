@@ -7,12 +7,16 @@ import {
 	Container,
 	Toolbar,
 	Typography,
-	Button,
+	IconButton,
 	Card,
 	Box,
 	Stack,
 } from "@mui/material";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 
 function App() {
 	const onButtonClick = () => {
@@ -37,30 +41,30 @@ function App() {
 			<Toolbar sx={{ justifyContent: "space-between" }}>
 				<Typography color='white'>Ikaika's Website</Typography>
 				<Stack direction='row' spacing={2}>
-					<Button
-						sx={{ backgroundColor: "#4C6444", color: "white" }}
+					<IconButton
+						sx={{ backgroundColor: "#8A6240", color: "white" }}
 						href={`mailto:leeikaika4@example.com`}
 					>
-						Contact
-					</Button>
-					<Button
-						sx={{ backgroundColor: "#4C6444", color: "white" }}
+						<EmailIcon />
+					</IconButton>
+					<IconButton
+						sx={{ backgroundColor: "#8A6240", color: "white" }}
 						onClick={onButtonClick}
 					>
-						Resume
-					</Button>
-					<Button
-						sx={{ backgroundColor: "#4C6444", color: "white" }}
+						<PictureAsPdfIcon />
+					</IconButton>
+					<IconButton
+						sx={{ backgroundColor: "#8A6240", color: "white" }}
 						href='https://github.com/IkaikaL'
 					>
-						GitHub
-					</Button>
-					<Button
-						sx={{ backgroundColor: "#4C6444", color: "white" }}
+						<GitHubIcon />
+					</IconButton>
+					<IconButton
+						sx={{ backgroundColor: "#8A6240", color: "white" }}
 						href='https://www.linkedin.com/in/ikaika-lee-708280213/'
 					>
-						LinkedIn
-					</Button>
+						<LinkedInIcon />
+					</IconButton>
 				</Stack>
 			</Toolbar>
 			<Router>
