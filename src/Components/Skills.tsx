@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Divider, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 
 const languages = [
 	"Java",

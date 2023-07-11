@@ -1,6 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import Home from "./Pages/Home";
 import Fun from "./Pages/Fun";
 import {
@@ -8,8 +5,6 @@ import {
 	Toolbar,
 	Typography,
 	IconButton,
-	Card,
-	Box,
 	Stack,
 } from "@mui/material";
 import { Route, Routes, HashRouter } from "react-router-dom";

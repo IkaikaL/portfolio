@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Divider } from "@mui/material";
+import { Container, Divider } from "@mui/material";
 import Intro from "../Components/Intro";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";

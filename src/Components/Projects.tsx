@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	Container,
-	Grid,
-	Divider,
-	Typography,
-	Card,
-	CardContent,
-} from "@mui/material";
+import { Container, Grid, Typography, Card, CardContent } from "@mui/material";
 
 import honeycomb from "../Assets/honeycomb.png";
 

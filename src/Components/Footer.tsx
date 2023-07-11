@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Typography, Button } from "@mui/material";
+import { Container, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 type Props = {
