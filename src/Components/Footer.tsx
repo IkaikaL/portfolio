@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
 		<Container sx={{ height: 70, textAlign: "center" }}>
 			<Button
 				sx={{ height: "50%", marginTop: "10px" }}
-				href={isHomePage === true ? "/fun" : "/"}
+				href={isHomePage === true ? "/fun" : "/portfolio"}
 			>
 				<Typography sx={{ color: "white" }}>Have a nice day :)</Typography>
 			</Button>

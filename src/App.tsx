@@ -65,7 +65,7 @@ function App() {
 			</Toolbar>
 			<Router>
 				<Routes>
-					<Route path='/' element={<Home />} />
+					<Route path='/portfolio' element={<Home />} />
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
 			</Router>
