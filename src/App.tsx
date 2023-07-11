@@ -69,7 +69,7 @@ function App() {
 			</Toolbar>
 			<HashRouter>
 				<Routes>
-					<Route path='/portfolio' element={<Home />} />
+					<Route path='/' element={<Home />} />
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
 			</HashRouter>

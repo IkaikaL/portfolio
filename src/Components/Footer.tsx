@@ -1,16 +1,18 @@
 import React from "react";
 import { Container, Grid, Typography, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
 	isHomePage: boolean;
 };
 const Footer = (props: Props) => {
+	const navigate = useNavigate();
 	const { isHomePage } = props;
 	return (
 		<Container sx={{ height: 70, textAlign: "center" }}>
 			<Button
 				sx={{ height: "50%", marginTop: "10px" }}
-				href={isHomePage === true ? "/fun" : "/portfolio"}
+				onClick={() => (isHomePage === true ? navigate("/fun") : navigate("/"))}
 			>
 				<Typography sx={{ color: "white" }}>Have a nice day :)</Typography>
 			</Button>
