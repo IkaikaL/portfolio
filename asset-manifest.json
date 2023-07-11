@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.d92331e5.js",
+    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio/static/js/main.39e49c07.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/hikeTwo.jpg": "/portfolio/static/media/hikeTwo.e4a57019db4a71f178ba.jpg",
     "static/media/hikeOne.jpg": "/portfolio/static/media/hikeOne.a0b6eba14a875ecf0c4c.jpg",
@@ -17,12 +17,12 @@
     "static/media/wave.jpg": "/portfolio/static/media/wave.382395ab43917665eee1.jpg",
     "static/media/honeycomb.png": "/portfolio/static/media/honeycomb.90186ad8cfe364cf7a42.png",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.d92331e5.js.map": "/portfolio/static/js/main.d92331e5.js.map",
+    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
+    "main.39e49c07.js.map": "/portfolio/static/js/main.39e49c07.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d92331e5.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.39e49c07.js"
   ]
 }
