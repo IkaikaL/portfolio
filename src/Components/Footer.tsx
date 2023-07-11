@@ -12,7 +12,9 @@ const Footer = (props: Props) => {
 		<Container sx={{ height: 70, textAlign: "center" }}>
 			<Button
 				sx={{ height: "50%", marginTop: "10px" }}
-				onClick={() => (isHomePage === true ? navigate("/fun") : navigate("/"))}
+				onClick={() =>
+					isHomePage === true ? navigate("/fun") : navigate("/portfolio")
+				}
 			>
 				<Typography sx={{ color: "white" }}>Have a nice day :)</Typography>
 			</Button>
