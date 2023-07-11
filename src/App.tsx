@@ -65,6 +65,7 @@ function App() {
 			<HashRouter>
 				<Routes>
 					<Route path='/portfolio' element={<Home />} />
+					{/** <Route path='/portfolio' element={<Home />} /> */}
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
 			</HashRouter>

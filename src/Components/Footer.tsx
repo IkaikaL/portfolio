@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-
+/**isHomePage === true ? navigate("/fun") : navigate("/") */
 type Props = {
 	isHomePage: boolean;
 };
