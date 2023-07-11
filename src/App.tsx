@@ -12,7 +12,7 @@ import {
 	Box,
 	Stack,
 } from "@mui/material";
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -67,12 +67,12 @@ function App() {
 					</IconButton>
 				</Stack>
 			</Toolbar>
-			<Router>
+			<HashRouter>
 				<Routes>
 					<Route path='/portfolio' element={<Home />} />
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
-			</Router>
+			</HashRouter>
 		</Container>
 	);
 }
