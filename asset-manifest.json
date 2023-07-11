@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/portfolio/static/js/main.972e8cf4.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hikeTwo.jpg": "/portfolio/static/media/hikeTwo.e4a57019db4a71f178ba.jpg",
+    "static/media/hikeOne.jpg": "/portfolio/static/media/hikeOne.a0b6eba14a875ecf0c4c.jpg",
+    "static/media/flowerVertical.jpg": "/portfolio/static/media/flowerVertical.e7a0b7e4f1cb57305843.jpg",
+    "static/media/bird.jpg": "/portfolio/static/media/bird.8e59f2adf8aea60e661c.jpg",
+    "static/media/flowers.jpg": "/portfolio/static/media/flowers.d2c1892ab0d6e7997cae.jpg",
+    "static/media/waterfallTwo.jpg": "/portfolio/static/media/waterfallTwo.0d97e6a250012a50f12b.jpg",
+    "static/media/flowerLeaves.jpg": "/portfolio/static/media/flowerLeaves.dc2679b847184b195d02.jpg",
+    "static/media/flowerSingle.jpg": "/portfolio/static/media/flowerSingle.d432f8f1cbc6ea7b5d29.jpg",
+    "static/media/waterfall.jpg": "/portfolio/static/media/waterfall.ed4613e5f5e34cf80a27.jpg",
+    "static/media/bamboo.jpg": "/portfolio/static/media/bamboo.6e48a2c618d407a9034e.jpg",
+    "static/media/bridge.jpg": "/portfolio/static/media/bridge.ff8149f6624bde56c8e0.jpg",
+    "static/media/wave.jpg": "/portfolio/static/media/wave.382395ab43917665eee1.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
+    "main.972e8cf4.js.map": "/portfolio/static/js/main.972e8cf4.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.972e8cf4.js"
+  ]
+}
