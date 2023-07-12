@@ -5,7 +5,6 @@ import ContactList from "../Components/ContactList";
 const buttons = [
 	{ name: "Home", location: "/" },
 	{ name: "Projects", location: "/projects" },
-	{ name: "Info", location: "/info" },
 	{ name: "Contact", location: "/contact" },
 ];
 const Contact = () => {

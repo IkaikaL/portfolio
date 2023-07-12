@@ -19,7 +19,6 @@ const ContactList = (props: Props) => {
 				minWidth: "100%",
 				height: 834,
 				backgroundImage: `url(${monstereightImage})`,
-				backgroundSize: "100%",
 				overflow: "hidden",
 			}}
 		>
@@ -34,7 +33,7 @@ const ContactList = (props: Props) => {
 					width: "120px",
 					backgroundColor: "black",
 					opacity: 0.8,
-					height: "200px",
+					height: "150px",
 					borderRadius: 1,
 				}}
 			>
@@ -64,7 +63,7 @@ const ContactList = (props: Props) => {
 				justifyContent='flex-start'
 				alignItems='flex-start'
 				sx={{
-					marginTop: "30%",
+					marginTop: "32.5%",
 					marginLeft: "89%",
 					height: "5%",
 					width: "200px",

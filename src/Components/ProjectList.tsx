@@ -7,8 +7,9 @@ import {
 	CardContent,
 	Button,
 } from "@mui/material";
-import onepunchImage from "../Assets/onepunch.jpg";
+
 import { useNavigate } from "react-router-dom";
+import hellsParadiseImage from "../Assets/hellsparadise.jpg";
 
 type Props = {
 	buttons: {
@@ -32,8 +33,7 @@ const ProjectList = (props: Props) => {
 			sx={{
 				minWidth: "100%",
 				height: 834,
-				backgroundImage: `url(${onepunchImage})`,
-				backgroundSize: "100%",
+				backgroundImage: `url(${hellsParadiseImage})`,
 				overflow: "hidden",
 			}}
 		>
@@ -48,7 +48,7 @@ const ProjectList = (props: Props) => {
 					width: "120px",
 					backgroundColor: "black",
 					opacity: 0.8,
-					height: "200px",
+					height: "150px",
 					borderRadius: 1,
 				}}
 			>
@@ -77,7 +77,7 @@ const ProjectList = (props: Props) => {
 				justifyContent='flex-start'
 				alignItems='flex-start'
 				sx={{
-					marginTop: "-10%",
+					marginTop: "-7.3%",
 					marginLeft: "80%",
 					height: "95.5%",
 					width: "300px",

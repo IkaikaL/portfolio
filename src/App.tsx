@@ -1,7 +1,6 @@
 import Home from "./Pages/Home";
 import Fun from "./Pages/Fun";
 import Projects from "./Pages/Projects";
-import Info from "./Pages/Info";
 import Contact from "./Pages/Contact";
 import {
 	Container,
@@ -48,7 +47,6 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
-					<Route path='/info' element={<Info />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
