@@ -1,11 +1,15 @@
 import Home from "./Pages/Home";
 import Fun from "./Pages/Fun";
+import Projects from "./Pages/Projects";
+import Info from "./Pages/Info";
+import Contact from "./Pages/Contact";
 import {
 	Container,
 	Toolbar,
 	Typography,
 	IconButton,
 	Stack,
+	Divider,
 } from "@mui/material";
 import { Route, Routes, HashRouter } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
@@ -34,38 +38,18 @@ function App() {
 			sx={{ minWidth: "100%", backgroundColor: "#181716" }}
 		>
 			<Toolbar sx={{ justifyContent: "space-between" }}>
-				<Typography color='white'>Ikaika's Website</Typography>
-				<Stack direction='row' spacing={2}>
-					<IconButton
-						sx={{ backgroundColor: "#8A6240", color: "white" }}
-						href={`mailto:leeikaika4@example.com`}
-					>
-						<EmailIcon />
-					</IconButton>
-					<IconButton
-						sx={{ backgroundColor: "#8A6240", color: "white" }}
-						onClick={onButtonClick}
-					>
-						<PictureAsPdfIcon />
-					</IconButton>
-					<IconButton
-						sx={{ backgroundColor: "#8A6240", color: "white" }}
-						href='https://github.com/IkaikaL'
-					>
-						<GitHubIcon />
-					</IconButton>
-					<IconButton
-						sx={{ backgroundColor: "#8A6240", color: "white" }}
-						href='https://www.linkedin.com/in/ikaika-lee-708280213/'
-					>
-						<LinkedInIcon />
-					</IconButton>
-				</Stack>
+				<div>
+					<Typography color='white'>Ikaika Lee</Typography>
+					<Typography color='white'>Software Developer</Typography>
+				</div>
 			</Toolbar>
+			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
 			<HashRouter>
 				<Routes>
 					<Route path='/' element={<Home />} />
-					{/** <Route path='/portfolio' element={<Home />} /> */}
+					<Route path='/projects' element={<Projects />} />
+					<Route path='/info' element={<Info />} />
+					<Route path='/contact' element={<Contact />} />
 					<Route path='/fun' element={<Fun />} />
 				</Routes>
 			</HashRouter>

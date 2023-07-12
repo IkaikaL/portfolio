@@ -1,8 +1,6 @@
 import React from "react";
-import { Container, Grid, Button, Typography } from "@mui/material";
-import bambooImage from "../Assets/bamboo.jpg";
-import waveImage from "../Assets/wave.jpg";
-import mangaImage from "../Assets/manga.jpg";
+import { Container, Grid, Typography, Button } from "@mui/material";
+import monstereightImage from "../Assets/monstereight.jpg";
 import { useNavigate } from "react-router-dom";
 
 type Props = {
@@ -11,16 +9,17 @@ type Props = {
 		location: string;
 	}[];
 };
-const Intro = (props: Props) => {
-	const { buttons } = props;
+const ContactList = (props: Props) => {
 	const navigate = useNavigate();
+	const { buttons } = props;
 	return (
 		<Container
 			disableGutters
 			sx={{
 				minWidth: "100%",
 				height: 834,
-				backgroundImage: `url(${mangaImage})`,
+				backgroundImage: `url(${monstereightImage})`,
+				backgroundSize: "100%",
 				overflow: "hidden",
 			}}
 		>
@@ -58,8 +57,39 @@ const Intro = (props: Props) => {
 					</Grid>
 				))}
 			</Grid>
+
+			<Grid
+				container
+				direction='column'
+				justifyContent='flex-start'
+				alignItems='flex-start'
+				sx={{
+					marginTop: "30%",
+					marginLeft: "89%",
+					height: "5%",
+					width: "200px",
+					backgroundColor: "black",
+					opacity: 0.8,
+					borderRadius: 1,
+				}}
+			>
+				<Button
+					variant='text'
+					fullWidth
+					disableRipple
+					sx={{
+						color: "white",
+						"&:hover": {
+							backgroundColor: "transparent",
+						},
+					}}
+					href={`mailto:leeikaika4@gmail.com`}
+				>
+					<Typography>Contact</Typography>
+				</Button>
+			</Grid>
 		</Container>
 	);
 };
 
-export default Intro;
+export default ContactList;
