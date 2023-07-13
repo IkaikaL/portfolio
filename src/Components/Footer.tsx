@@ -9,14 +9,30 @@ const Footer = (props: Props) => {
 	const navigate = useNavigate();
 	const { isHomePage } = props;
 	return (
-		<Container sx={{ height: 70, textAlign: "center" }}>
-			<Button
-				sx={{ height: "50%", marginTop: "10px" }}
-				onClick={() => (isHomePage === true ? navigate("/fun") : navigate("/"))}
+		<Container
+			sx={{
+				height: 70,
+				textAlign: "center",
+				backgroundColor: "#181716",
+				minWidth: "100%",
+			}}
+		>
+			<Typography
+				sx={{
+					fontSize: 15,
+					color: "dark-gray",
+					paddingTop: "10px",
+				}}
 			>
-				<Typography sx={{ color: "white" }}>Have a nice day :)</Typography>
-			</Button>
-			<Typography sx={{ fontSize: 10, marginTop: "5px", color: "dark-gray" }}>
+				Made by:
+			</Typography>
+			<Typography
+				sx={{
+					fontSize: 15,
+					color: "dark-gray",
+					paddingTop: "10px",
+				}}
+			>
 				Ikaika Lee - 2023
 			</Typography>
 		</Container>

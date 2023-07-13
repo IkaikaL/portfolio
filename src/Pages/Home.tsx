@@ -19,7 +19,12 @@ const info = [
 ];
 const Home = () => {
 	return (
-		<Container disableGutters sx={{ height: "100%", minWidth: "100%" }}>
+		<Container
+			disableGutters
+			sx={{
+				minWidth: "100%",
+			}}
+		>
 			<Intro buttons={buttons} info={info} />
 			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
 			<Footer isHomePage={true} />
