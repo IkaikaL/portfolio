@@ -1,13 +1,10 @@
 import React from "react";
-import { Container, Typography, Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
-/**isHomePage === true ? navigate("/fun") : navigate("/") */
+import { Container, Typography } from "@mui/material";
+
 type Props = {
 	isHomePage: boolean;
 };
 const Footer = (props: Props) => {
-	const navigate = useNavigate();
-	const { isHomePage } = props;
 	return (
 		<Container
 			sx={{

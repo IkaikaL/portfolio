@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	Container,
-	Grid,
-	Typography,
-	Card,
-	CardContent,
-	Button,
-} from "@mui/material";
+import { Grid, Typography, Button } from "@mui/material";
 
 type Props = {
 	projects: {

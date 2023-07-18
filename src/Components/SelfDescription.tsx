@@ -51,7 +51,7 @@ const SelfDescription = (props: Props) => {
 				}}
 			>
 				<Typography color={"white"} sx={{ fontSize: { xs: 23, xl: 30 } }}>
-					Currently Looking to Obtain an entry level position working with
+					Currently looking to obtain an early career position working with
 					experienced software engineers, engaging in a competitive environment
 					where I can play an integral role in the team’s success.
 				</Typography>

@@ -1,35 +1,10 @@
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
-import {
-	Container,
-	Toolbar,
-	Typography,
-	IconButton,
-	Stack,
-	Divider,
-} from "@mui/material";
+import { Container, Toolbar, Typography, Divider } from "@mui/material";
 import { Route, Routes, HashRouter } from "react-router-dom";
-import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 
 function App() {
-	const onButtonClick = () => {
-		// using Java Script method to get PDF file
-		fetch("IkaikaLeeResume.pdf").then((response) => {
-			response.blob().then((blob) => {
-				// Creating new object of PDF file
-				const fileURL = window.URL.createObjectURL(blob);
-				// Setting various property values
-				let alink = document.createElement("a");
-				alink.href = fileURL;
-				alink.download = "IkaikaLeeResume.pdf";
-				alink.click();
-			});
-		});
-	};
 	return (
 		<Container
 			disableGutters

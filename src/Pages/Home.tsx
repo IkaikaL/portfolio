@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Divider, Grid, Box } from "@mui/material";
+import { Container, Divider, Grid } from "@mui/material";
 import NavColumn from "../Components/NavColumn";
 import Footer from "../Components/Footer";
 import mangaImage from "../Assets/manga.jpg";

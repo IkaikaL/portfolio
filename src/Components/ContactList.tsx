@@ -1,10 +1,5 @@
 import React from "react";
-import { Container, Grid, Typography, Button } from "@mui/material";
-import monstereightImage from "../Assets/monstereight.jpg";
-import hunterxhunterImage from "../Assets/hunterxhunter.jpg";
-import berserkImage from "../Assets/berserk.jpg";
-import onepunchImage from "../Assets/onepunch.jpg";
-import { useNavigate } from "react-router-dom";
+import { Grid, Typography, Button } from "@mui/material";
 
 type Props = {};
 const ContactList = (props: Props) => {
