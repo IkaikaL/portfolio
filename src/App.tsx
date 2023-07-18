@@ -1,5 +1,4 @@
 import Home from "./Pages/Home";
-import Fun from "./Pages/Fun";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import {
@@ -48,7 +47,6 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
 					<Route path='/contact' element={<Contact />} />
-					<Route path='/fun' element={<Fun />} />
 				</Routes>
 			</HashRouter>
 		</Container>

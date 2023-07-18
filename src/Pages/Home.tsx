@@ -1,14 +1,16 @@
 import React from "react";
-import { Container, Divider } from "@mui/material";
-import Intro from "../Components/Intro";
+import { Container, Divider, Grid, Box } from "@mui/material";
+import NavColumn from "../Components/NavColumn";
 import Footer from "../Components/Footer";
+import mangaImage from "../Assets/manga.jpg";
+import SelfDescription from "../Components/SelfDescription";
 
 const buttons = [
 	{ name: "Home", location: "/" },
 	{ name: "Projects", location: "/projects" },
 	{ name: "Contact", location: "/contact" },
 ];
-const info = [
+const descriptionInfo = [
 	{ name: "Resume", type: "download" },
 	{ name: "GitHub", type: "link", action: "https://github.com/IkaikaL" },
 	{
@@ -25,7 +27,20 @@ const Home = () => {
 				minWidth: "100%",
 			}}
 		>
-			<Intro buttons={buttons} info={info} />
+			<Grid
+				container
+				direction='row'
+				justifyContent='space-between'
+				alignItems='flex-start'
+				sx={{ height: "93vh", backgroundImage: `url(${mangaImage})` }}
+			>
+				<Grid item>
+					<NavColumn buttons={buttons} />
+				</Grid>
+				<Grid item>
+					<SelfDescription descriptionInfo={descriptionInfo} />
+				</Grid>
+			</Grid>
 			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
 			<Footer isHomePage={true} />
 		</Container>
