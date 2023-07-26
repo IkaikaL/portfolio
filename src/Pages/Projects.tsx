@@ -48,12 +48,6 @@ const projects = [
 		type: "Portfolio",
 		link: "https://github.com/IkaikaL/shoeBot",
 	},
-	{
-		name: "Real Estate Scaper",
-		software: "Typescript, React, Python",
-		type: "Portfolio",
-		link: "https://github.com/IkaikaL/realEstateWebsite",
-	},
 ];
 const Projects = () => {
 	return (
