@@ -48,6 +48,12 @@ const projects = [
 		type: "Portfolio",
 		link: "https://github.com/IkaikaL/shoeBot",
 	},
+	{
+		name: "Ink Paradise",
+		software: "React, Typescript, Material UI",
+		type: "Portfolio",
+		link: "https://github.com/IkaikaL/ink-paradise",
+	},
 ];
 const Projects = () => {
 	return (
