@@ -50,7 +50,7 @@ const projects = [
 	},
 	{
 		name: "Ink Paradise",
-		software: "React, Typescript, Material UI",
+		software: "React, Typescript, Material UI, Ruby",
 		type: "Portfolio",
 		link: "https://github.com/IkaikaL/ink-paradise",
 	},
