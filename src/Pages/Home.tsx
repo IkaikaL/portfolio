@@ -21,10 +21,16 @@ const descriptionInfo = [
 ];
 const Home = () => {
 	return (
-		<Container
-			disableGutters
-			sx={{
+		<div
+			style={{
 				minWidth: "100%",
+				minHeight: "100vh",
+				backgroundImage: `url(${mangaImage})`,
+
+				display: "flex",
+				flexDirection: "column",
+				justifyContent: "space-between",
+				alignItems: "center",
 			}}
 		>
 			<Grid
@@ -32,7 +38,6 @@ const Home = () => {
 				direction='row'
 				justifyContent='space-between'
 				alignItems='flex-start'
-				sx={{ height: "93vh", backgroundImage: `url(${mangaImage})` }}
 			>
 				<Grid item>
 					<NavColumn buttons={buttons} />
@@ -41,9 +46,9 @@ const Home = () => {
 					<SelfDescription descriptionInfo={descriptionInfo} />
 				</Grid>
 			</Grid>
-			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
+
 			<Footer isHomePage={true} />
-		</Container>
+		</div>
 	);
 };
 

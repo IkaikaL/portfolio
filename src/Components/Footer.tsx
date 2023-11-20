@@ -1,19 +1,20 @@
 import React from "react";
-import { Container, Typography } from "@mui/material";
+import { Container, Divider, Typography } from "@mui/material";
 
 type Props = {
 	isHomePage: boolean;
 };
 const Footer = (props: Props) => {
 	return (
-		<Container
-			sx={{
+		<div
+			style={{
 				height: 70,
 				textAlign: "center",
 				backgroundColor: "#181716",
 				minWidth: "100%",
 			}}
 		>
+			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
 			<Typography
 				sx={{
 					fontSize: 15,
@@ -32,7 +33,7 @@ const Footer = (props: Props) => {
 			>
 				Ikaika Lee - 2023
 			</Typography>
-		</Container>
+		</div>
 	);
 };
 

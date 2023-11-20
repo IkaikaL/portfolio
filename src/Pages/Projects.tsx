@@ -57,10 +57,16 @@ const projects = [
 ];
 const Projects = () => {
 	return (
-		<Container
-			disableGutters
-			sx={{
+		<div
+			style={{
 				minWidth: "100%",
+				minHeight: "100vh",
+				backgroundImage: `url(${hellsParadiseImage})`,
+
+				display: "flex",
+				flexDirection: "column",
+				justifyContent: "space-between",
+				alignItems: "center",
 			}}
 		>
 			<Grid
@@ -68,7 +74,6 @@ const Projects = () => {
 				direction='row'
 				justifyContent='space-between'
 				alignItems='flex-start'
-				sx={{ height: "93vh", backgroundImage: `url(${hellsParadiseImage})` }}
 			>
 				<Grid item>
 					<NavColumn buttons={buttons} />
@@ -77,9 +82,9 @@ const Projects = () => {
 					<ProjectList projects={projects} />
 				</Grid>
 			</Grid>
-			<Divider sx={{ height: 3, bgcolor: "#8A6240" }} />
+
 			<Footer isHomePage={true} />
-		</Container>
+		</div>
 	);
 };
 

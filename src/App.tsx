@@ -6,9 +6,12 @@ import { Route, Routes, HashRouter } from "react-router-dom";
 
 function App() {
 	return (
-		<Container
-			disableGutters
-			sx={{ minWidth: "100%", backgroundColor: "#181716" }}
+		<div
+			style={{
+				minWidth: "100%",
+				minHeight: "100vh",
+				backgroundColor: "#181716",
+			}}
 		>
 			<Toolbar sx={{ justifyContent: "space-between" }}>
 				<div>
@@ -24,7 +27,7 @@ function App() {
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</HashRouter>
-		</Container>
+		</div>
 	);
 }
 
